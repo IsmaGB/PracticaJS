@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <style>
+#button{
+    border-radius: 60px;
+    height: 20px;
+    width: 60px;
+    background-color: red;
+}
+#idDatos{
+    background-color: aqua;
+}
+label{
+    background-color: blanchedalmond;
+    margin-top: 30px;
+}
+input{
+    position: static;
+    margin-top: 200px;
+}
+    </style>
+    <div>
+    <div id="idDatos">
+        <form action="" method="get">
+        <label for="info">Ingrese el numero que desea multiplicar:</label>
+        <input type="text" id="primerDato">
+        <label for="info">Ingrese el numero por el cual va a multiplicar el primer dato:</label>
+        <input type="text" id="segundoDato">
+    </form>
+    <h1>Respuesta:</h1>
+    <div id="store"></div>
+    <button id="button" onclick="multiplication()"></button>
+    </div>
+    </div>
+</body>
+</html>
